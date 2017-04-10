@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RJView_Example' do
+  pod 'RJView', :path => '../'
+
+  target 'RJView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
