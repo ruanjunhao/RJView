@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E6AC40E9FD008B78DED22E59EA23FD2 /* RJView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D4ABBE548EAB4504599036ABD04ED2 /* RJView-dummy.m */; };
 		1B115A92A880CA6D2560478D5FBB31B2 /* Pods-RJView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA579AEB2E0C4EF502ED86C9E7608755 /* Pods-RJView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C98203984FAD884EFBC60B5A5168387 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EE605295A2C3925105A0612143998E /* ReplaceMe.m */; };
 		227986769A5FEC807E0B79DA84517421 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		302BF19AD69E612D880EF3B7AE646575 /* Pods-RJView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C9444887D9F059B04C410DFB9985D96 /* Pods-RJView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		328A1DE2A73C08F6745338F968A69BBD /* UIImage+XMGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8812C150B033EE112896AB92B4097E /* UIImage+XMGImage.m */; };
 		39F27BF248D996D944772AAADDE539C9 /* Pods-RJView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F3D21C9638DC632982F847B7305E8E /* Pods-RJView_Example-dummy.m */; };
 		3DF5B14B9CE95688C0035310374E8208 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4283EA4C8C30616BBED36C1A2D932F7B /* UIImage+XMGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C7B0287E5335DD4ECB88BF4E6EEF7A /* UIImage+XMGImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450704239E32415A18D9109799F07B64 /* CALayer+PauseAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = EABCBE97F0E2EC15BE6CAF0705382DC2 /* CALayer+PauseAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F69935412F59A8635B2033079A790AF /* UIView+XMGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 63014B8B20D4C184286BD560DECFC2FB /* UIView+XMGLayout.m */; };
+		61B9C980F857AD3DC963073774235BE8 /* UIView+XMGLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5556088BE1E03606BF866E066BE59D2D /* UIView+XMGLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87DACEF7AD34496FA02E4281E7B96D8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		8A9665D1958F6217A032390815F0C065 /* RJView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D652389BBC5D61497F9D1BE0245ADBB /* RJView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8802908EC2C4FA57E552276F88FA4570 /* RJView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D652389BBC5D61497F9D1BE0245ADBB /* RJView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9716D80F7778AD0AE0259AB2DF44A70C /* Pods-RJView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B85D14B3CBA17DF193E7B3066BB101AB /* Pods-RJView_Tests-dummy.m */; };
-		A320F5C3AA6AE0F53D8768D9BC7E892A /* RJView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D4ABBE548EAB4504599036ABD04ED2 /* RJView-dummy.m */; };
+		B2215FA0953A59C74536354B23B06616 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2E0F561A9A1197CAF963D33D2CFFB8 /* CALayer+PauseAimate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +42,13 @@
 		0D37BB587641BA7AB3FCC9662A9ED34E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1186AA25012149038EB7FE481889236B /* Pods-RJView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RJView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		12E8B68A617F0DC8C981995A74A6BE76 /* Pods_RJView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RJView_Example.framework; path = "Pods-RJView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8812C150B033EE112896AB92B4097E /* UIImage+XMGImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XMGImage.m"; sourceTree = "<group>"; };
 		263318246D03BE68BFAAC74FCC2BA996 /* Pods-RJView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJView_Example-resources.sh"; sourceTree = "<group>"; };
-		29EE605295A2C3925105A0612143998E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		39D615213856969C18844DE488368108 /* RJView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RJView-prefix.pch"; sourceTree = "<group>"; };
 		4C7A447EBA023A6FC8F599AA21D63E9B /* Pods-RJView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5556088BE1E03606BF866E066BE59D2D /* UIView+XMGLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGLayout.h"; sourceTree = "<group>"; };
+		5C2E0F561A9A1197CAF963D33D2CFFB8 /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		63014B8B20D4C184286BD560DECFC2FB /* UIView+XMGLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGLayout.m"; sourceTree = "<group>"; };
 		782B46874F0B2D3AAC7A08686EE60A7A /* Pods-RJView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJView_Tests-resources.sh"; sourceTree = "<group>"; };
 		8C071CE7DEF9BE4498F95B9D7B788224 /* Pods_RJView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RJView_Tests.framework; path = "Pods-RJView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -51,6 +59,7 @@
 		A72D54AC311E7329DF920E116816BE62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8436867F146BEAE52FAB88070DD1A70 /* Pods-RJView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AA579AEB2E0C4EF502ED86C9E7608755 /* Pods-RJView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RJView_Example-umbrella.h"; sourceTree = "<group>"; };
+		B0C7B0287E5335DD4ECB88BF4E6EEF7A /* UIImage+XMGImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+XMGImage.h"; sourceTree = "<group>"; };
 		B85D14B3CBA17DF193E7B3066BB101AB /* Pods-RJView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RJView_Tests-dummy.m"; sourceTree = "<group>"; };
 		B9C4B5FF11BD37FAEA5AB0465AE873BE /* Pods-RJView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RJView_Tests.modulemap"; sourceTree = "<group>"; };
 		CB70C448A42B601344D6734A15AE9356 /* Pods-RJView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,6 +70,7 @@
 		E0F3D21C9638DC632982F847B7305E8E /* Pods-RJView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RJView_Example-dummy.m"; sourceTree = "<group>"; };
 		E7D832AE03F8E113250FD6F3820C0C68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA513A615CD6343AA7DA502EFFC2EA78 /* RJView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RJView.framework; path = RJView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABCBE97F0E2EC15BE6CAF0705382DC2 /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+PauseAimate.h"; sourceTree = "<group>"; };
 		F6D4ABBE548EAB4504599036ABD04ED2 /* RJView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RJView-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BA27549EB31BF1535B1671D9C37C8D2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B5BAF231C905DB66DB0826E3009C9495 /* Category */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		0FBD3D18EC8C539358947A51F0187BD9 /* RJView */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,15 +158,6 @@
 			path = "Target Support Files/Pods-RJView_Example";
 			sourceTree = "<group>";
 		};
-		590F2793C464C6E0CAA98C41E990B4C5 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				29EE605295A2C3925105A0612143998E /* ReplaceMe.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		749C980504207FEDA903FEFA3592197D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +199,20 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		B5BAF231C905DB66DB0826E3009C9495 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EABCBE97F0E2EC15BE6CAF0705382DC2 /* CALayer+PauseAimate.h */,
+				5C2E0F561A9A1197CAF963D33D2CFFB8 /* CALayer+PauseAimate.m */,
+				B0C7B0287E5335DD4ECB88BF4E6EEF7A /* UIImage+XMGImage.h */,
+				1D8812C150B033EE112896AB92B4097E /* UIImage+XMGImage.m */,
+				5556088BE1E03606BF866E066BE59D2D /* UIView+XMGLayout.h */,
+				63014B8B20D4C184286BD560DECFC2FB /* UIView+XMGLayout.m */,
+			);
+			name = Category;
+			path = Category;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,7 +242,7 @@
 		FAAFB11B1125698898152FB651219B0E /* RJView */ = {
 			isa = PBXGroup;
 			children = (
-				590F2793C464C6E0CAA98C41E990B4C5 /* Classes */,
+				0BA27549EB31BF1535B1671D9C37C8D2 /* Classes */,
 			);
 			name = RJView;
 			path = RJView;
@@ -227,6 +251,17 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		153832C80B9091570639C9CC1A37E6C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450704239E32415A18D9109799F07B64 /* CALayer+PauseAimate.h in Headers */,
+				8802908EC2C4FA57E552276F88FA4570 /* RJView-umbrella.h in Headers */,
+				4283EA4C8C30616BBED36C1A2D932F7B /* UIImage+XMGImage.h in Headers */,
+				61B9C980F857AD3DC963073774235BE8 /* UIView+XMGLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15C0293C8D6BC6F7D78BC9EB26F4E5E7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,14 +278,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F56F685BC92BC1D0A742697DE8E14D80 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A9665D1958F6217A032390815F0C065 /* RJView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -258,9 +285,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF91CE6D7F3514F668263BCA99478ECC /* Build configuration list for PBXNativeTarget "RJView" */;
 			buildPhases = (
-				BC20322B4BFD73C323F027E28F7603E2 /* Sources */,
+				77844A1DA634A7C0CB8A23B4D003C271 /* Sources */,
 				21BFAFEBFA70C632BECD77079DB01BA6 /* Frameworks */,
-				F56F685BC92BC1D0A742697DE8E14D80 /* Headers */,
+				153832C80B9091570639C9CC1A37E6C2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -343,12 +370,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC20322B4BFD73C323F027E28F7603E2 /* Sources */ = {
+		77844A1DA634A7C0CB8A23B4D003C271 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C98203984FAD884EFBC60B5A5168387 /* ReplaceMe.m in Sources */,
-				A320F5C3AA6AE0F53D8768D9BC7E892A /* RJView-dummy.m in Sources */,
+				B2215FA0953A59C74536354B23B06616 /* CALayer+PauseAimate.m in Sources */,
+				0E6AC40E9FD008B78DED22E59EA23FD2 /* RJView-dummy.m in Sources */,
+				328A1DE2A73C08F6745338F968A69BBD /* UIImage+XMGImage.m in Sources */,
+				5F69935412F59A8635B2033079A790AF /* UIView+XMGLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

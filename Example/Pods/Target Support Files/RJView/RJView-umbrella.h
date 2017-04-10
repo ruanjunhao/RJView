@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "CALayer+PauseAimate.h"
+#import "UIImage+XMGImage.h"
+#import "UIView+XMGLayout.h"
 
 FOUNDATION_EXPORT double RJViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char RJViewVersionString[];
