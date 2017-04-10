@@ -1,0 +1,16 @@
+PODS:
+  - RJView (0.1.0)
+
+DEPENDENCIES:
+  - RJView (from `../`)
+
+EXTERNAL SOURCES:
+  RJView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RJView: f2d694bcabbc32ec17c87355ddd18c3b88429da4
+
+PODFILE CHECKSUM: 7e451456451e2c3b6df27017fee832f2316a4a28
+
+COCOAPODS: 1.2.0

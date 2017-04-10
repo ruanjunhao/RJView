@@ -1,0 +1,6 @@
+framework module RJView {
+  umbrella header "RJView-umbrella.h"
+
+  export *
+  module * { export * }
+}
